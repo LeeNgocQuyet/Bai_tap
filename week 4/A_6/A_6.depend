@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1710680603 source:c:\ltnc\bai_tap\week 4\a_6\main.cpp
+	<iostream>
+	<cstdlib>
+	<time.h>
+
