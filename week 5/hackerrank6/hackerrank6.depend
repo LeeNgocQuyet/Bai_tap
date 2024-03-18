@@ -1,0 +1,10 @@
+# depslib dependency file v1.0
+1710735482 source:c:\ltnc\bai_tap\week 5\hackerrank6\main.cpp
+	<cmath>
+	<cstdio>
+	<vector>
+	<iostream>
+	<set>
+	<map>
+	<algorithm>
+
