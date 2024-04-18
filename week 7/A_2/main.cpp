@@ -2,8 +2,14 @@
 
 using namespace std;
 
+void truyenthamso(int a[]){
+    cout<<sizeof(a);
+
+}
 int main()
 {
-    cout << "Hello world!" << endl;
+    int a[5];
+    cout<<sizeof(a)<<endl;
+    truyenthamso(a);
     return 0;
 }

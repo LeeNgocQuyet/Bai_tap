@@ -1,23 +1,17 @@
 #include <iostream>
+#include <string>
 
 using namespace std;
 
-int main()
-{
-    char c = 'A', d = 'B';
-char* p1 = &c;
-char* p2 = &d;
-char* p3;
-    p3 = &d;
-cout << p1<<"#" << *p1 <<endl;
-cout << p2<<"#"  << *p2 <<endl;
-cout << p3<<"#"  << *p3 <<endl;
-
-cout << "*p3 = " << *p3 << ", p3 = " << p3 << endl;
-p3 = p1;
-cout << "*p3 = " << *p3 << ", p3 = " << p3 << endl;
-*p1 = *p2;
-cout << "*p1 = " << *p1 << ", p1 = " << p1 << endl;
-
+int main() {
+    string s1,s2 ;
+    cin>>s1>>s2;
+    int count = 0;
+    int pos = 0;
+    while ((pos = s2.find(s1, pos)) != string::npos) {
+        count++;
+        pos += s1.length();
+    }
+    cout<< count<<endl;
     return 0;
 }
